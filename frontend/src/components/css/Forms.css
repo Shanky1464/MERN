@@ -1,0 +1,45 @@
+/* frontend/src/components/Forms.css */
+
+.form-container {
+    max-width: 500px; /* Maximum width for the form */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding inside the form */
+    border: 1px solid #ccc; /* Border around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.form-container h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+    font-family: 'Arial', sans-serif; /* Custom font */
+}
+
+.form-container label {
+    font-weight: bold; /* Bold labels */
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin: 10px 0; /* Margin around inputs */
+    border: 1px solid #ccc; /* Border around inputs */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.form-container button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #000000; /* Bootstrap primary color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.form-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
